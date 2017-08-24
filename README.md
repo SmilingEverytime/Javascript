@@ -9,5 +9,5 @@ some questions or memories about studying javascript
            <li></li>
            <li></li>
            <li></li>
-       /ul>
+       </ul>
 </body>
