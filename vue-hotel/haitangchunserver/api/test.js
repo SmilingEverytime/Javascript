@@ -1,0 +1,5 @@
+const jwt = require('jsonwebtoken')
+const mytoken = jwt.sign({ id: '001', name: 'Tom' }, 'didi', { expiresIn: '1d' })
+console.log(mytoken)
+const decoded = jwt.verify(mytoken, 'didi')
+console.log(decoded)
