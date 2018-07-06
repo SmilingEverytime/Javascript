@@ -1,0 +1,21 @@
+.left {
+  height: 100%;
+  width: 240px;
+  background-color: rgb(68, 67, 51);
+}
+
+.left-logo {
+  height: 62px;
+}
+
+.left-logo span {
+  font-family: 'Pacifico', cursive;
+  font-size: 34px !important;
+  text-decoration: none;
+  color: white !important;
+}
+
+.user {
+  height: 150px;
+  background-color: white;
+}
